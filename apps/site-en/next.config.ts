@@ -6,5 +6,5 @@ const nextConfig: NextConfig = {
   //   defaultLocale: 'es',
   // },
 };
-
+  
 export default nextConfig;
