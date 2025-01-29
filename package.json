@@ -1,0 +1,16 @@
+{
+"name": "monorepo-ts-site",
+"private": true,
+"packageManager": "npm@10.9.0",
+"workspaces": ["apps/*", "packages/*", "translations/*"],
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev --parallel",
+    "lint": "turbo run lint",
+    "test": "turbo run test"
+  },
+
+  "devDependencies": {
+    "turbo": "^2.3.3"
+  }
+}
