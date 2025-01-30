@@ -1,14 +1,12 @@
 "use client";
 
 import { Button } from '@monorepo/ui-ts';
-
-// import { getTranslation } from "@monorepo/i18n/getTranslation.server";
+import Link from 'next/link';
 import { useTranslation } from "react-i18next";
 
 import React from 'react';
-import Link from 'next/link';
 
-export default function Home() {
+export default function Events() {
  // const t = await getTranslation('pt');
   const { t } = useTranslation();
 
@@ -19,9 +17,11 @@ export default function Home() {
         {/* <h1>{t.welcome_message}</h1>
         <Button>Teste</Button> */}
 
-        <h1>{t("welcome_message")}</h1>
-        <Button>{t("button_signup")}</Button>
-        <Link href="/eventos">{t("button_events")} ➡️</Link>
+        <h1>{t("events.title")}</h1>
+        <p>{t("events.description")}</p>
+        <Button>{t("events.event.button_register")}</Button>
+        
+        <Link href="/">◀️ Voltar para a Home</Link>
       </main>
     </div>
   );

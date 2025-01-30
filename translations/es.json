@@ -1,4 +1,18 @@
 {
     "welcome_message": "¡Bienvenido a nuestra plataforma!",
-    "button_signup": "Ingressar"
+    "button_signup": "Ingressar",
+    "button_events": "Lista de acontecimientos",
+    "events": {
+        "title": "Acontecimiento",
+        "description": "Aquí están los eventos disponibles",
+        "no_events": "No hay eventos disponibles",
+        "event": {
+            "title": "Título",
+            "description": "Descripción",
+            "date": "Fecha",
+            "location": "Ubicación",
+            "price": "Precio",
+            "button_register": "Registrarse"
+        }
+    }
 }

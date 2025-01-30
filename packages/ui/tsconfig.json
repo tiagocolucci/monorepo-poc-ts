@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+      "outDir": "dist",
+      "module": "ESNext",
+      "target": "ESNext",
+      "lib": ["dom", "ESNext"],
+      "moduleResolution": "Node",
+      "jsx": "react-jsx",
+      "declaration": true,
+      "declarationMap": true,
+      "emitDeclarationOnly": false,
+      "strict": true,
+      "allowSyntheticDefaultImports": true
+    },
+    "include": ["src", "index.ts"]
+  }

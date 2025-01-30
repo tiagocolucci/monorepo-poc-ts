@@ -9,6 +9,8 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@monorepo/i18n": "file:../../packages/i18n",
+    "@monorepo/ui-ts": "file:../../packages/ui",
     "monorepo-ui-ts": "file:../../packages/ui",
     "next": "15.1.6",
     "react": "^19.0.0",

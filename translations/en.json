@@ -1,4 +1,18 @@
 {
     "welcome_message": "Welcome to our platform!",
-    "button_signup": "Enter"
+    "button_signup": "Enter",
+    "button_events": "Event list",
+    "events": {
+        "title": "Event",
+        "description": "Here are the available events",
+        "no_events": "There are no events available",
+        "event": {
+            "title": "Title",
+            "description": "Description",
+            "date": "Date",
+            "location": "Location",
+            "price": "Price",
+            "button_register": "Register"
+        }
+    }
 }
